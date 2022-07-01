@@ -71,7 +71,7 @@ footer a {
 }
 
 section {
-    padding: 60px;
+    padding: 5px;
 }
 
 /* Hero style start */
@@ -83,8 +83,6 @@ section {
     background-position: center;
     position: relative;
 }
-
-/* Hero Style end */
 
 .hero-form {
     border: 3px solid #024e76;
@@ -115,3 +113,17 @@ section {
     width: 100%;
     margin-bottom: 15px;
 }
+
+.hero-form label {
+    margin: 0 5px;
+}
+
+.hero-form button {
+    color: #fce138;
+    background-color: #024e76;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+/* Hero Style end */
