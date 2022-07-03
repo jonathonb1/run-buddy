@@ -42,10 +42,8 @@
             <form class="form">
                 <label for="name">Enter full name:</label>
                 <input type="text" placeholder="Your Name" name="name" id="name" class="form-input" />
-
                 <label for="email">Enter email address:</label>
                 <input type="text" placeholder="Email Address" name="email" id="email" class="form-input" />
-
                 <label for="phone">Enter a telephone number:</label>
                 <input type="text" placeholder="Phone Number" name="phone" id="phone" class="form-input" />
                 <p>
@@ -55,7 +53,6 @@
                     <input type="radio" name="trainer-confirm" id="trainer-no" />
                     <label for="trainer-no">No</label>
                 </p>
-
                 <p>
                     I acknowledge that I am at leaset 18 years of age
                     <input type="checkbox" name="age-confirm" id="checkbox">
@@ -84,34 +81,81 @@
 
         <div>
             <img src="./images/step-1.svg" alt="" />
-            <h3><span></span>Step 1: Fill Out the Form Above</span></h3>
+            <h3>Step 1: <span> Out the Form Above.</span></h3>
             <p>You're already here, so why not?</p>
         </div>
 
         <div>
             <img src="./images/step-2.svg" alt="">
-            <h3>Setp 2: Consult with On of Our Trainers.</h3>
+            <h3>Setp 2: <span>Consult with On of Our Trainers.</span></h3>
             <p>Are you here to build muscle, lose weight, or just feel good?</p>
         </div>
 
         <div>
             <img src="./images/step-3.svg" alt="">
-            <h3>Step 3: Get Running.</h3>
+            <h3>Step 3: <span>Get Running.</span></h3>
             <p>Hit the ground running (literally) once your trainer lays out your plan.</p>
         </div>
 
         <div>
             <img src="./images/step-4.svg" alt="">
-            <h3>Step 4: See Results.</h3>
+            <h3>Step 4: <span>See Results.</span></h3>
             <p>Bi-Weekly Checkins with your trainier will keep you focused</p>
         </div>
 
     </section>
 
     <!-- "meet the trainers" section -->
-    <section>
-        <h2>Meet The Trainers</h2>
+    <section id="your-trainers" class="trainers">
+        <h2 class="section-title primary-border">Meet The Trainers</h2>
+        <article class="trainer">
+            <img src="./images/trainer-1.jpg" alt="Arron Stepens in his workout clothes, ready to pump iron " />
+            <div class="trainer-bio text-left">
+                <h3>Arron Stephens</h3>
+                <h4>Speed / Strength</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, necessitatibus optio tenetur beatae
+                    quam
+                    adipisci velit ipsum non magni veniam doloremque doloribus sequi debitis quisquam vitae assumenda
+                    fugit
+                    laborum voluptates.
+                </p>
+            </div>
+        </article>
+
+        <!-- second trainer bio -->
+        <article class="trainer">
+            <div class="trainer-bio text-right">
+                <h3>Joanna Gill</h3>
+                <h4>Endurance</h4>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos amet vero consequuntur, blanditiis
+                    optio, perferendis expedita eum placeat assumenda dolorem aperiam. Repudiandae fugiat natus optio
+                    repellat, vero minus beatae commodi!
+                </p>
+            </div>
+            <img src="./images/trainer-2.jpg" alt="Joanna Gill cooling off after a workout">
+        </article>
+
+        <!-- third trainer bio -->
+        <article class="trainer">
+            <img src="./images/trainer-3.jpg"
+                alt="Harry Smith wearing a headband and lifting comically small pink weight">
+            <div class="trainer-bio text-left">
+                <h3>Harry "the headband" Smith</h3>
+                <h4>Strength</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima repellat necessitatibus, harum
+                    corporis sapiente dicta nesciunt, repudiandae optio ex illum assumenda! Quis, vel distinctio?
+                    Molestias doloremque quaerat culpa maxime dolor?
+                </p>
+            </div>
+        </article>
+
+
     </section>
+
+
 
     <!-- "reach out" section -->
     <section>
