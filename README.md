@@ -12,3 +12,6 @@ https://lernatino.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Jonathon Biala
+
+
+### ©️2019 Run Buddy, Inc 
